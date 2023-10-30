@@ -1,5 +1,5 @@
 const devBaseURL = 'http://127.0.0.1:8080';
-const prodBaseURL = '';
+const prodBaseURL = 'http://www.baidu.com';
 
 export const BASEURL = process.env.NODE_ENV === 'development' ? devBaseURL : prodBaseURL;
 
